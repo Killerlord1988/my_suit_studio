@@ -1,0 +1,104 @@
+@font-face {
+  font-weight: 800;
+  font-family: "ProximaNova";
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Extrabold.woff.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Extrabold.woff.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "ProximaNova";
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "ProximaNova";
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Semibold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "ProximaNova";
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "ProximaNovaCondenced";
+  font-style: normal;
+  src: url("../fonts/ProximaNovaCondenced-Semibold.woff2") format("woff2"),
+    url("../fonts/ProximaNovaCondenced-Semibold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Georgia";
+  font-style: italic;
+  src: url("../fonts/Georgia-ItalicBold.woff2") format("woff2"),
+    url("../fonts/Georgia-ItalicBold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Georgia";
+  font-style: italic;
+  src: url("../fonts/Georgia-Italic.woff2") format("woff2"),
+    url("../fonts/Georgia-Italic.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Georgia";
+  font-style: normal;
+  src: url("../fonts/Georgia-Regular.woff2") format("woff2"),
+    url("../fonts/Georgia-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "PTSerif";
+  font-style: italic;
+  src: url("../fonts/PtSerif-Italic.woff2") format("woff2"),
+    url("../fonts/PtSerif-Italic.woff") format("woff");
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  font-family: $main-font;
+  color: $color-black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
