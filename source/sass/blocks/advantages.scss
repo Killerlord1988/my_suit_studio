@@ -1,0 +1,71 @@
+.advantages {
+  background-image: url("../img/bottom-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.advantages__text {
+  font-size: 24px;
+  color: $color-white;
+  font-weight: 600;
+  line-height: 1.357;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  // padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.advantages__text--italic {
+  font-family: $second-font;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 28px;
+  text-transform: none;
+}
+
+.advantages__text--bold {
+  font-weight: 800;
+}
+
+.advantages__text-completed {
+  position: relative;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  font-family: $second-font;
+  color: $color-white;
+  font-style: italic;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.advantages__text-completed::before {
+  position: absolute;
+  content: "";
+
+  width: 260px;
+  height: 2px;
+  top: 0;
+  background-color: $color-white;
+}
+
+.advantages__text-completed::after {
+  position: absolute;
+  content: "";
+
+  width: 210px;
+  height: 14px;
+  background-image: url("../img/wave-line.png");
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

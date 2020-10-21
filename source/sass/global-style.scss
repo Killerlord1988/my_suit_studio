@@ -2,8 +2,8 @@
   font-weight: 800;
   font-family: "ProximaNova";
   font-style: normal;
-  src: url("../fonts/ProximaNova-Extrabold.woff.woff2") format("woff2"),
-    url("../fonts/ProximaNova-Extrabold.woff.woff") format("woff");
+  src: url("../fonts/ProximaNova-Extrabold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Extrabold.woff") format("woff");
   font-display: swap;
 }
 
@@ -87,9 +87,6 @@
 
 body {
   margin: 0;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
   font-family: $main-font;
   color: $color-black;
 }
