@@ -1,0 +1,213 @@
+.fitting {
+  background-image: url("../img/lines-bottom.png");
+  background-repeat: no-repeat;
+  background-color: $color-gray-light;
+  background-size: cover;
+  background-position: center -215px;
+  padding-bottom: 80px;
+}
+
+.fitting__title {
+  margin: 0;
+  padding-top: 38px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.462;
+  text-align: center;
+}
+
+.fitting__text {
+  position: relative;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 31px;
+  margin-bottom: 31px;
+}
+
+.fitting__text::after {
+  position: absolute;
+  content: "";
+  width: 166px;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $color-black;
+}
+
+.fitting__form {
+  padding-top: 43px;
+  padding-bottom: 43px;
+  padding-left: 190px;
+  padding-right: 190px;
+  border: 2px solid $color-black;
+  background-color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fitting__wrapper-side {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 48%;
+  margin-right: 10px;
+}
+
+.fitting__input-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fitting__input-wrapper--date {
+  width: 165px;
+}
+
+.fitting__input-wrapper--date::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  background: url("../img/css_sprites.png") -10px -10px;
+}
+
+.fitting__input-wrapper--date::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 10px;
+  height: 6px;
+  background: url("../img/css_sprites.png") -147px -81px;
+}
+
+.fitting__input-wrapper--time {
+  width: 110px;
+}
+
+.fitting__input-wrapper--time::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  background: url("../img/css_sprites.png") -46px -10px;
+}
+
+.fitting__input-wrapper--time::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 10px;
+  height: 6px;
+  background: url("../img/css_sprites.png") -147px -81px;
+}
+
+.fitting__input-wrapper--name::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 14px;
+  height: 16px;
+  background: url("../img/css_sprites.png") -82px -10px;
+}
+
+.fitting__input-wrapper--address::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 11px;
+  height: 16px;
+  background: url("../img/css_sprites.png") -116px -10px;
+}
+
+.fitting__input-wrapper--address::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 10px;
+  height: 6px;
+  background: url("../img/css_sprites.png") -147px -81px;
+}
+
+.fitting__input-wrapper--telephone::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 10px;
+  height: 16px;
+  background: url("../img/css_sprites.png") -147px -10px;
+}
+
+.fitting__input-label {
+  font-size: 13px;
+  font-family: $second-font;
+  font-style: italic;
+  line-height: 1.385;
+  margin-bottom: 11px;
+}
+
+.fitting__input {
+  margin-bottom: 28px;
+  width: 100%;
+  height: 38px;
+  border: 2px solid $color-black;
+  padding: 7px;
+  padding-left: 35px;
+}
+
+.fitting__input::placeholder {
+  font-size: 14px;
+  color: $color-brown;
+  line-height: 2.714;
+  text-align: left;
+}
+
+.fitting__input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.fitting__input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.fitting__btn {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid $color-brown-dark;
+  background-color: $color-brown;
+  color: $color-white;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.fitting__btn:hover {
+  opacity: 0.8;
+}
