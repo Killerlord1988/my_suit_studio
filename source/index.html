@@ -70,7 +70,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="main">
     <section class="promo">
       <div class="container">
         <div class="promo__wrapper-title">
@@ -145,7 +145,107 @@
             height="23"></a>
       </div>
     </section>
+    <section class="fitting">
+      <div class="fitting__wrapper container">
+        <h2 class="fitting__title ">Записаться на примерку</h2>
+        <p class="fitting__text">Когда и во сколько вам удобно подъехать для снятие мерок?</p>
+        <form class="fitting__form" action="https://echo.htmlacademy.ru" method="POST">
+          <div class="fitting__wrapper-side">
+            <div class="fitting__input-wrapper fitting__input-wrapper--date">
+              <label class="fitting__input-label" for="date">Выберите день</label><input class="fitting__input"
+                type="text" onfocus="(this.type='date')" name="date" id="date" placeholder="07 Ноября">
+            </div>
+            <div class="fitting__input-wrapper fitting__input-wrapper--time">
+              <label class="fitting__input-label" for="time">Выберите время</label><input class="fitting__input"
+                type="text" onfocus="(this.type='time')" name="time" id="time" placeholder="16:30">
+            </div>
+            <div class="fitting__input-wrapper fitting__input-wrapper--name">
+              <label class="fitting__input-label" for="name">Представтесь пожалуйста</label><input
+                class="fitting__input" type="text" name="name" id="name" placeholder="Напишите свое имя">
+            </div>
+          </div>
+          <div class="fitting__wrapper-side">
+            <div class="fitting__input-wrapper fitting__input-wrapper--address">
+              <label class="fitting__input-label" for="date">Адрес ателье</label>
+              <input class="fitting__input" type="text" list="address-list" id="address"
+                placeholder="ул. Марата (Санкт-Петербург)" autocomplete="off">
+              <datalist id="address-list">
+                <option value="ул. Марата (Санкт-Петербург)">
+                <option value="ул. Марата (Москва)">
+              </datalist>
+            </div>
+            <div class="fitting__input-wrapper fitting__input-wrapper--telephone">
+              <label class="fitting__input-label" for="telephone">Ваш контактный телефон</label><input
+                class="fitting__input" type="tel" name="telephone" id="telephone"
+                pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+                placeholder="+7(___)___-__-__">
+            </div>
+          </div>
+          <button class="fitting__btn">Записаться</button>
+        </form>
+      </div>
+    </section>
   </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <nav class="footer__nav">
+          <ul class="footer__list footer__list--main">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">пошив одежды</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Каталог</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">о магазине</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Блог</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">ПАРТНЕРАМ</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__nav">
+          <ul class="footer__list footer__list--catalog">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Костюмы</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Сорочки</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Пальто</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Обувь</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Запонки</a></li>
+          </ul>
+          <ul class="footer__list footer__list--catalog">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Галстуки</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Джинсы</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Нижнее белье</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Кепки</a></li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <h3 class="footer__contacts-title">Контакты</h3>
+          <p class="footer__contacts-address">Адрес: Студенческая улица, 20</p>
+          <p class="footer__contacts-tel">тел: <a href="tel:+7(499)240-10-01">+7 (499) 240-10-01</a></p>
+          <p class="footer__contacts-email">e-mail: <a href="mailto:info@my-suit.ru">info@my-suit.ru</a></p>
+          <div class="footer__social">
+            <a class="footer__social-link" href="https://www.facebook.com/" target="_blank"><span
+                class="visually-hidden">Фейсбук</span>
+              <div class="footer__social-img footer__social-img--fb"></div>
+            </a>
+            <a class="footer__social-link" href="https://vk.com/" target="_blank"><span
+                class="visually-hidden">Вк</span>
+              <div class="footer__social-img footer__social-img--vk"></div>
+            </a>
+            <a class="footer__social-link" href="https://twitter.com/" target="_blank"><span
+                class="visually-hidden">Твиттер</span>
+              <div class="footer__social-img footer__social-img--twitter"></div>
+            </a>
+            <a class="footer__social-link" href="https://myaccount.google.com/ target=" _blank""><span
+                class="visually-hidden">Гугл</span>
+              <div class="footer__social-img footer__social-img--google"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <div class="copyright">
+    <div class="container">
+      <p class="copyright__text">Copywrite Еtrusci, Ltd 2015-2016 All rihghts preserved</p>
+    </div>
+  </div>
 </body>
 
 </html>
