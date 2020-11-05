@@ -43,3 +43,19 @@
 .header-bottom__item--checked {
   border-bottom: 1px dashed $color-white;
 }
+
+@media (max-width: $tablet-width) {
+  .header-bottom__wrapper {
+    flex-direction: column;
+  }
+
+  .header-bottom__logo {
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .header-bottom__nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+}

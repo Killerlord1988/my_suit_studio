@@ -213,3 +213,25 @@
 .fitting__btn:hover {
   opacity: 0.8;
 }
+
+@media (max-width: $tablet-width) {
+  .fitting {
+    background: none;
+  }
+
+  .fitting__form {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .fitting__wrapper-side {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fitting__input-wrapper {
+    width: 100%;
+  }
+}

@@ -177,3 +177,14 @@
   margin-right: auto;
   padding: 15px;
 }
+
+@media (max-width: $tablet-width) {
+  .catalog__list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .catalog__items {
+    justify-content: space-around;
+  }
+}

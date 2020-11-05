@@ -169,3 +169,19 @@
   padding-left: 10px;
   margin-left: 10px;
 }
+
+@media (max-width: $tablet-width) {
+  .header-top__wrapper {
+    flex-direction: column;
+  }
+
+  .header-top__social {
+    margin-bottom: 10px;
+  }
+
+  .header-top__contact-card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
