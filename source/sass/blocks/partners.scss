@@ -18,3 +18,14 @@
   padding: 10px;
   background-color: rgba($color: $color-white, $alpha: 0.2);
 }
+
+@media (max-width: $tablet-width) {
+  .partners__wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .partners__links {
+    margin-bottom: 10px;
+  }
+}

@@ -1,3 +1,7 @@
+:root {
+  --bg: red;
+}
+
 .fitting {
   background-image: url("../img/lines-bottom.png");
   background-repeat: no-repeat;
@@ -55,7 +59,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 48%;
-  margin-right: 10px;
 }
 
 .fitting__input-wrapper {
@@ -174,8 +177,7 @@
   width: 100%;
   height: 38px;
   border: 2px solid $color-black;
-  padding: 7px;
-  padding-left: 35px;
+  padding-left: 28px;
 }
 
 .fitting__input::placeholder {
@@ -210,4 +212,36 @@
 
 .fitting__btn:hover {
   opacity: 0.8;
+}
+
+@media (max-width: $tablet-width) {
+  .fitting {
+    background: none;
+  }
+
+  .fitting__form {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .fitting__wrapper-side {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fitting__input-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .fitting__wrapper-side {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

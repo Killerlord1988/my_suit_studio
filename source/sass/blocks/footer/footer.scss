@@ -126,3 +126,19 @@
   height: 12px;
   background: url("../img/css_sprites.png") -47px -46px;
 }
+
+@media (max-width: $tablet-width) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+
+  .footer__nav {
+    border: none;
+    border-bottom: 1px solid #ababab;
+    justify-content: space-evenly;
+  }
+
+  .footer__list:last-child {
+    margin-right: 0;
+  }
+}

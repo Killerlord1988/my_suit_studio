@@ -69,3 +69,13 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+@media (max-width: $mobile-width) {
+  .advantages__text {
+    font-size: 18px;
+  }
+
+  .advantages__text--italic {
+    font-size: 24px;
+  }
+}
