@@ -235,3 +235,13 @@
     width: 100%;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .fitting__wrapper-side {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

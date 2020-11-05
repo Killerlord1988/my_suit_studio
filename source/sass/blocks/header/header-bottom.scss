@@ -59,3 +59,17 @@
     width: 100%;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .header-bottom__logo {
+    margin-left: auto;
+  }
+
+  .header-bottom__list {
+    flex-direction: column;
+  }
+
+  .header-bottom__items {
+    margin-bottom: 10px;
+  }
+}
